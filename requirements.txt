@@ -4,7 +4,7 @@ aiortc
 flask-cors
 flask-jwt-extended
 flask_login
-tensorflow==2.15.0
+tensorflow==2.12.0
 opencv-python-headless
 numpy
 bcrypt
