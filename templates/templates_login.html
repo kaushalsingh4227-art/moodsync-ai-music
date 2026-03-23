@@ -1,0 +1,87 @@
+<<!DOCTYPE html>
+<html>
+<head>
+<title>MoodSync Login</title>
+  <style>
+
+   body{
+    margin:0;
+    font-family: Arial;
+    background: linear-gradient(to right,#4b6cb7,#182848);
+   }
+
+   /* Top left title */
+   .top-title{
+    position:absolute;
+    top:20px;
+    left:30px;
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+}
+
+/* Center login box */
+.login-box{
+    width:300px;
+    position:centre;
+    margin:200px;
+    text-align:center;
+}
+
+/* input fields */
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:6px;
+    border:none;
+}
+
+/* login button */
+.login-btn{
+    width:100%;
+    padding:10px;
+    background:#28a745;
+    alignment:centre;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* create account link */
+.create-account{
+    margin-top:15px;
+}
+
+.create-account a{
+    color:#ff69b4;
+    text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>MoodSync Login</h2>
+
+<form action="/login" method="POST">
+
+<input type="text" name="username" placeholder="Username" required>
+<br><br>
+
+<input type="password" name="password" placeholder="Password" required>
+<br><br>
+
+<button type="submit">Login</button>
+
+</form>
+
+<br>
+
+<a href="/register">Create Account</a>
+
+</body>
+</html>

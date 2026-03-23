@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MoodSync</title>
+
+<style>
+body{
+    margin:0;
+    background:black;
+    overflow:hidden;
+}
+
+/* fullscreen video */
+#introVideo{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    object-fit:cover;
+    z-index:-1;
+}
+
+/* app name */
+.logo{
+    position:absolute;
+    bottom:40px;
+    width:100%;
+    text-align:center;
+    font-size:48px;
+    color:#00d4ff;
+    z-index:1;
+}
+</style>
+
+</head>
+
+<body>
+
+<video id="introVideo" muted playsinline preload="auto">
+    <source src="{{ url_for('static', filename='intro.mp4') }}" type="video/mp4">
+</video>
+
+<div class="logo">MoodSync</div>
+
+<script>
+
+const video = document.getElementById("introVideo");
+
+/* Wait until video is ready */
+video.addEventListener("loadeddata", () => {
+    video.play();
+});
+
+/* Redirect only after video finishes */
+video.addEventListener("ended", () => {
+    window.location.href="/login";
+});
+
+</script>
+
+</body>
+</html>
