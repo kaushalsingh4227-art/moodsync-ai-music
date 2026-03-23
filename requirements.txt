@@ -1,0 +1,12 @@
+groq
+flask
+aiortc
+flask-cors
+flask-jwt-extended
+flask_login
+tensorflow==2.15.0
+opencv-python-headless
+numpy
+bcrypt
+spotipy
+flask_sqlalchemy
