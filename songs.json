@@ -1,0 +1,52 @@
+{
+  "bollywood": [
+    {"name": "Kesariya", "artist": "Arijit Singh"},
+    {"name": "Tum Hi Ho", "artist": "Arijit Singh"},
+    {"name": "Apna Bana Le", "artist": "Arijit Singh"},
+    {"name": "Shayad", "artist": "Arijit Singh"},
+    {"name": "Raabta", "artist": "Arijit Singh"},
+    {"name": "Ghungroo", "artist": "Arijit Singh"},
+    {"name": "Tera Ban Jaunga", "artist": "Akhil Sachdeva"},
+    {"name": "Channa Mereya", "artist": "Arijit Singh"},
+    {"name": "Ae Dil Hai Mushkil", "artist": "Arijit Singh"},
+    {"name": "Kabira", "artist": "Arijit Singh"}
+  ],
+
+  "punjabi": [
+    {"name": "Excuses", "artist": "AP Dhillon"},
+    {"name": "Brown Munde", "artist": "AP Dhillon"},
+    {"name": "Insane", "artist": "AP Dhillon"},
+    {"name": "With You", "artist": "AP Dhillon"},
+    {"name": "We Rollin", "artist": "Shubh"},
+    {"name": "Elevated", "artist": "Shubh"},
+    {"name": "No Love", "artist": "Shubh"},
+    {"name": "Still Rollin", "artist": "Shubh"},
+    {"name": "Born To Shine", "artist": "Diljit Dosanjh"},
+    {"name": "Lover", "artist": "Diljit Dosanjh"},
+    {"name": "Do You Know", "artist": "Diljit Dosanjh"},
+    {"name": "GOAT", "artist": "Diljit Dosanjh"},
+    {"name": "Kya Baat Ay", "artist": "Harrdy Sandhu"},
+    {"name": "Naah", "artist": "Harrdy Sandhu"},
+    {"name": "Backbone", "artist": "Harrdy Sandhu"},
+    {"name": "8 Parche", "artist": "Baani Sandhu"},
+    {"name": "Lehenga", "artist": "Jass Manak"},
+    {"name": "Prada", "artist": "Jass Manak"},
+    {"name": "So High", "artist": "Sidhu Moosewala"},
+    {"name": "Same Beef", "artist": "Sidhu Moosewala"}
+  ],
+
+  "haryanvi": [
+    {"name": "52 Gaj Ka Daman", "artist": "Renuka Panwar"},
+    {"name": "Chatak Matak", "artist": "Renuka Panwar"},
+    {"name": "Gypsy", "artist": "Pranjal Dahiya"},
+    {"name": "Solid Body", "artist": "Ajay Hooda"},
+    {"name": "Tokk", "artist": "KD Desi Rock"},
+    {"name": "Desi Desi Na Bolya Kar", "artist": "Raju Punjabi"},
+    {"name": "Tuition Badmashi Ka", "artist": "Masoom Sharma"},
+    {"name": "Kasoote", "artist": "Gulzaar Chhaniwala"},
+    {"name": "Filter Shot", "artist": "Gulzaar Chhaniwala"},
+    {"name": "Yaar Villager", "artist": "Sumit Goswami"},
+    {"name": "Bawli Tared", "artist": "Sumit Goswami"},
+    {"name": "Badli Badli Lage", "artist": "Sapna Choudhary"}
+  ]
+}
